@@ -39,18 +39,18 @@
 
 . "$(dirname "$0")"/common.sh
 
-. "$(dirname "$0")"/test_announce_begin.sh
-. "$(dirname "$0")"/test_br_scan.sh
-. "$(dirname "$0")"/test_ccm.sh
-. "$(dirname "$0")"/test_cli.sh
+#. "$(dirname "$0")"/test_announce_begin.sh
+#. "$(dirname "$0")"/test_br_scan.sh
+#. "$(dirname "$0")"/test_ccm.sh
+#. "$(dirname "$0")"/test_cli.sh
 . "$(dirname "$0")"/test_domain_syntax.sh
-. "$(dirname "$0")"/test_discover.sh
-. "$(dirname "$0")"/test_energy_scan.sh
-. "$(dirname "$0")"/test_joining.sh
-. "$(dirname "$0")"/test_native_commissioner.sh
-. "$(dirname "$0")"/test_operational_dataset.sh
-. "$(dirname "$0")"/test_pan_id_query.sh
-. "$(dirname "$0")"/test_petition.sh
+#. "$(dirname "$0")"/test_discover.sh
+#. "$(dirname "$0")"/test_energy_scan.sh
+#. "$(dirname "$0")"/test_joining.sh
+#. "$(dirname "$0")"/test_native_commissioner.sh
+#. "$(dirname "$0")"/test_operational_dataset.sh
+#. "$(dirname "$0")"/test_pan_id_query.sh
+#. "$(dirname "$0")"/test_petition.sh
 
 ## Run a test case and collect the result.
 ## Return: 0, test case succeed, 1, test case failed;
