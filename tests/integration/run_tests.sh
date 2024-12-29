@@ -87,7 +87,7 @@ run_test_case() {
         echo "------ ot-daemon log end ------"
 
         echo "------ syslog log begin ------"
-        grep ot-daemon /var/log/syslog || true
+        grep ot /var/log/syslog || true
         echo "------ syslog log end ------"
 
         echo "------ commissioner daemon log begin ------"
